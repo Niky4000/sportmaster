@@ -1,0 +1,13 @@
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/repositories/entities/Task.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/repositories/TaskRepository.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/controllers/ControllerExceptionHandler.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/services/EmployeeService.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/DTO/TaskStatus.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/controllers/EmployeeController.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/ConfigurationClass.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/DTO/EmployeeDTO.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/repositories/entities/Employee.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/DTO/TaskType.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/DTO/TaskDTO.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/repositories/EmployeeRepository.java
+/home/me/GIT/testTasks/sportmaster/spring-day-offer-middle/src/main/java/com/onedayoffer/taskdistribution/TaskDistributionApplication.java
