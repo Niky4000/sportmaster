@@ -117,7 +117,7 @@ class TaskDistributionApplicationTests {
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(request))
 				.andDo(print())
-//				.andExpect(status().isCreated())
+				.andExpect(status().isCreated())
                 ;
 
 		this.mockMvc.perform(get("/employees/2/tasks"))

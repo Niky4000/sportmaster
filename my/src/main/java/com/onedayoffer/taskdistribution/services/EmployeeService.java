@@ -79,18 +79,14 @@ public class EmployeeService {
 
     @Transactional
     public void postNewTask(Integer employeeId, TaskDTO newTask) {
-        Optional<EmployeeDTO> employeeById = getEmployeeById(employeeId);
-        if (employeeById.isPresent()) {
-            EmployeeDTO employee = employeeById.get();
-            Type employeeType = new TypeToken<Employee>() {
-            }.getType();
-            Employee employeeDb = modelMapper.map(employee, employeeType);
+        Optional<Employee> employeeOptional = employeeRepository.findById(employeeId);
+        if (employeeOptional.isPresent()) {
+            Employee employee = employeeOptional.get();
             Type type = new TypeToken<Task>() {
             }.getType();
             Task task = modelMapper.map(newTask, type);
-            task.setEmployee(employeeDb);
-            taskRepository.save(task); // Вот тут not-null property references a null or transient value!
-            // Не успел этот момент!
+            employee.addTask(task);
+            task.setEmployee(employee);
         }
     }
 }
