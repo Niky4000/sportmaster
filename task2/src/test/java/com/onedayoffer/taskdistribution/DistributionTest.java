@@ -11,6 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
+// Тест проходит!!!
 @SpringBootTest
 @AutoConfigureMockMvc
 public class DistributionTest {
